@@ -1,4 +1,4 @@
-# Javascript Remote Nagios Plugin Executor
+# Javascript Nagios Remote Plugin Executor
 
 Enables the remote execution of Nagios plugin.
 
