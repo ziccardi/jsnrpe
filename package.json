@@ -21,10 +21,6 @@
     "url": "git://github.com/ziccardi/jsnrpe.git"
   },
   "dependencies": {
-    "crc-32": "^1.2.0",
-    "enum": "^2.5.0",
-    "js-plugins": "^1.0.0",
-    "quote-unquote": "^1.0.0",
-    "split-string": "^6.0.0"
+    "jnrpe-lib": "^1.0.0-alpha.1"
   }
 }
