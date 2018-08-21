@@ -1,10 +1,10 @@
 {
   "name": "jnrpe",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.9",
   "description": "Javascript implementation of NRPE (Nagios Remote Plugin Executor)",
   "main": "./jnrpe.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node ./jnrpe.js"
   },
   "author": "Massimiliano Ziccardi <massimiliano.ziccardi@gmail.com>",
@@ -15,7 +15,7 @@
     "remote",
     "nrpe"
   ],
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "bin": {
     "jnrpe": "./jnrpe.js"
   },
@@ -24,8 +24,13 @@
     "url": "git://github.com/ziccardi/jsnrpe.git"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^5.4.0",
-    "eslint-config-strongloop": "^2.1.0"
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^5.2.0",
+    "mocha-sinon": "^2.1.0",
+    "proxyquire": "^2.0.1",
+    "sinon": "^6.1.5"
   },
   "dependencies": {
     "commander": "^2.17.1",
