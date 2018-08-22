@@ -21,9 +21,21 @@ $ npm install -g jnrpe
 ## Usage
 
 ### Start the server
+In a terminal, run
 ```bash
 $ jnrpe start
 ```
+
+To check that it works, open another terminal and run:
+
+```
+check_nrpe -2 --no-ssl -H 127.0.0.1 -p 5667
+```
+
+It should return the `jnrpe version`.
+
+***Note**: `check_nrpe` is a standard Nagios Plugin and must be installed to have the above command work*
+
 
 ### List the installed pugins
 ```bash
