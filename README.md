@@ -12,6 +12,29 @@ Enables the remote execution of Nagios plugin.
 ## License
 See [LICENSE file](./LICENSE)
 
+## Install
+
+```bash
+$ npm install -g jnrpe
+```
+
+## Usage
+
+### Start the server
+```bash
+$ jnrpe start
+```
+
+### List the installed pugins
+```bash
+$ jnrpe list
+```
+
+### Get help about a plugin
+```bash
+$ jnrpe help <plugin>
+```
+
 ## Questions?
 Join our [mailing list](https://groups.google.com/forum/#!forum/js-jnrpe) for any questions or help!
 
